@@ -72,8 +72,15 @@ When a note is open, just tap a number to tell the app how well you remembered i
 3.  Paste the URL: `https://github.com/SumitRanjanPaul/note-spaced-repetition`
 
 ---
+## ☕ Support My Work
+
+If this plugin helps you learn and remember better, please consider supporting its development. Every coffee helps keep the project alive!
+
+<a href="https://www.buymeacoffee.com/SumitRanjanPaul" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+---
 
 <div align="center">
   <p><b>Developed with ❤️ by <a href="https://github.com/SumitRanjanPaul">Sumit Ranjan Paul</a></b></p>
-  <p><i>If this plugin helps you remember more, please give it a ⭐ on GitHub!</i></p>
-</div>
+  <p><i>If this plugin helps you, please give it a ⭐ on GitHub!</i></p>
+</div> 
