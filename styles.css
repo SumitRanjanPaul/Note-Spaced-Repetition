@@ -1,0 +1,139 @@
+/* Bottom Review Bar */
+.note-srs-bar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+  width: 90%;
+  max-width: 620px;
+}
+
+.note-srs-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.note-srs-tag-badge {
+  cursor: pointer;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--text-normal);
+  transition: background 0.15s ease;
+}
+.note-srs-tag-badge:hover {
+  background-color: var(--background-modifier-hover);
+  border-color: var(--interactive-accent);
+}
+
+.note-srs-icon-btn {
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  color: var(--text-muted);
+}
+.note-srs-icon-btn:hover {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+/* 4 Buttons Row */
+.note-srs-actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.note-srs-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  transition: transform 0.1s ease, filter 0.1s ease;
+}
+.note-srs-btn:active { transform: scale(0.96); }
+
+.note-srs-sub {
+  font-size: 0.75em;
+  font-weight: normal;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+.btn-again { background-color: rgba(235, 87, 87, 0.2); color: #eb5757; }
+.btn-hard  { background-color: rgba(242, 153, 74, 0.2); color: #f2994a; }
+.btn-good  { background-color: rgba(39, 174, 96, 0.2); color: #27ae60; }
+.btn-easy  { background-color: rgba(47, 128, 237, 0.2); color: #2f80ed; }
+
+.btn-again:hover { background-color: #eb5757; color: white; }
+.btn-hard:hover  { background-color: #f2994a; color: white; }
+.btn-good:hover  { background-color: #27ae60; color: white; }
+.btn-easy:hover  { background-color: #2f80ed; color: white; }
+
+/* History & Schedule Inspector Styles */
+.srs-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.srs-metric-box {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.srs-metric-val {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.srs-table-container {
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.srs-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.srs-data-table th, .srs-data-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.srs-data-table th {
+  background: var(--background-secondary);
+  position: sticky;
+  top: 0;
+  font-weight: 600;
+}

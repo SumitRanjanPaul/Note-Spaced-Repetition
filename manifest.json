@@ -1,0 +1,10 @@
+{
+  "id": "note-spaced-repetition",
+  "name": "Note Spaced Repetition",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Spaced repetition review system for whole notes using FSRS and SM-2 algorithms.",
+  "author": "Sumit Ranjan Paul",
+  "authorUrl": "https://github.com/SumitRanjanPaul",
+  "isDesktopOnly": false
+}
